@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>Flight Gear Interface</eng>
+		<loc>Flight Gear Interface</loc>
+	</AddMenu>
+	<Version>2.0</Version>
+	<Type>Asynchronous</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>D8EA3D30-E860-46E7-8ED8-8BF260841556</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Flight Gear Interface\Flight Gear Interface Configuration.llb\Flight Gear Interface Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<Source>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Flight Gear Interface\Flight Gear Interface Engine.llb\Flight Gear Interface RT Driver VI.vi</Path>
+		</Source>
+		<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Flight Gear Interface\Flight Gear Interface Engine.llb\Flight Gear Interface RT Driver VI.vi</RealTimeSystemDestination>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>Flight Gear Interface</eng>
+				<loc>Flight Gear Interface</loc>
+			</Name>
+			<GUID>D8EA3D30-E860-46E7-8ED8-8BF260841556</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Flight Gear Interface\Flight Gear Interface Configuration.llb\Flight Gear Interface Main Page.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy />
+	</CustomXML>
+</CustomDevice>
