@@ -1,3 +1,5 @@
+**NOTICE: This repository has been archived, and will no longer be maintained or accept pull requests.**
+
 ## Flight Gear Interface Custom Device ##
 
 **Flight Gear Interface Custom Device** blasts data over UDP from the NI VeriStand Target to any PC with Flight Gear 2.0 on it.
